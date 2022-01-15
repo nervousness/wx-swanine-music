@@ -1,0 +1,44 @@
+/* components/video-item-v1/index.wxss */
+.item {
+  box-sizing: border-box;
+}
+
+.album {
+  position: relative;
+  height: 210rpx;
+  border-radius: 12rpx;
+  overflow: hidden;
+  box-shadow: 0 -4rpx 2rpx 4rpx rgba(0, 0, 0, 0.08);
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+}
+
+.info {
+  box-sizing: border-box;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 6rpx;
+  bottom: 4rpx;
+  width: 100%;
+  color: #fff;
+  font-size: 26rpx;
+}
+
+.content {
+  height: 78rpx;
+  padding: 6rpx 2rpx;
+  padding-bottom: 2rpx;
+  font-size: 28rpx;
+  color: #333;
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
