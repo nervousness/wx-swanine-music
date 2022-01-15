@@ -1,0 +1,16 @@
+/* pages/home-music/index.wxss */
+page {
+  background-color: #666;
+}
+.wrapper {
+  height: 100vh;
+  background-color: #666;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text {
+  text-align: center;
+  font-size: 50rpx;
+  position: relative;
+}

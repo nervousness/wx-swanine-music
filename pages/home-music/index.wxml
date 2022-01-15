@@ -1,0 +1,4 @@
+<!--pages/home-music/index.wxml-->
+<view class="wrapper">
+  <view class="text">鸿鸿音乐努力孵化中</view>
+</view>
