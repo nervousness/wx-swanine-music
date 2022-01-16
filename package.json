@@ -1,0 +1,23 @@
+{
+  "name": "miniprogram-2",
+  "version": "1.0.0",
+  "description": "<h1>wx-swanine-music</h1>",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nervousness/wx-swanine-music.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nervousness/wx-swanine-music/issues"
+  },
+  "homepage": "https://github.com/nervousness/wx-swanine-music#readme",
+  "dependencies": {
+    "@vant/weapp": "^1.10.2"
+  }
+}
