@@ -2,15 +2,19 @@
   "pages": [
     "pages/home-music/index",
     "pages/home-video/index",
-    "pages/detail-video/index"
+    "pages/detail-video/index",
+    "pages/detail-search/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
-    "navigationBarTextStyle": "black"
+    "navigationBarBackgroundColor": "#f03d4d",
+    "navigationBarTitleText": "鸿鸿音乐",
+    "navigationBarTextStyle": "white"
   },
   "tabBar": {
+    "color": "#999",
+    "selectedColor": "#f03d4d",
+    "backgroundColor": "#fff",
     "list": [
       {
         "pagePath": "pages/home-music/index",
