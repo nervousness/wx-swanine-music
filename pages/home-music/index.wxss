@@ -1,16 +1,26 @@
 /* pages/home-music/index.wxss */
 page {
-  background-color: #666;
+  background-color: rgb(255, 255, 255);
 }
-.wrapper {
-  height: 100vh;
-  background-color: #666;
+
+.search-bar {
+  position: sticky;
+  top: 0;
+}
+
+.swiper {
+  height: 278rpx;
+}
+
+.swiper-item {
+  box-sizing: border-box;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  height: max-content !important;
+  padding: 0 20rpx;
+  overflow: hidden;
 }
-.text {
-  text-align: center;
-  font-size: 50rpx;
-  position: relative;
+
+.swiper-item .image {
+  width: 100%;
+  border-radius: 20rpx;
 }

@@ -1,4 +1,15 @@
 <!--pages/home-music/index.wxml-->
-<view class="wrapper">
-  <view class="text">鸿鸿音乐努力孵化中</view>
-</view>
+<!-- 搜索 -->
+<van-search class="search-bar" value="{{ value }}" shape="round" readonly background="#fff" placeholder="试试输入喜欢的歌吧" bind:click-input="onClick" />
+
+<!-- 轮播图 -->
+<swiper class="swiper" indicator-dots indicator-active-color="#fff" autoplay circular>
+  <block wx:for="{{banners}}" wx:key="bannerId">
+    <swiper-item class="swiper-item">
+      <image class="image" bindload="handleSwiperImageLoaded" src="{{item.pic}}" mode="widthFix"></image>
+    </swiper-item>
+  </block>
+</swiper>
+
+<!-- 推荐曲 -->
+<!-- <view>推荐歌曲</view> -->
