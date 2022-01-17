@@ -1,0 +1,8 @@
+/* pages/detail-search/index.wxss */
+.text {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  height: 500rpx;
+  font-size: 100rpx;
+}

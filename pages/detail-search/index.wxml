@@ -1,0 +1,6 @@
+<!--pages/detail-search/index.wxml-->
+<van-notice-bar
+  left-icon="volume-o"
+  text="这个页面还在施工哦"
+/>
+<view class="text">🚧</view>
