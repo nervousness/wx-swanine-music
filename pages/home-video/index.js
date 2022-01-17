@@ -43,12 +43,14 @@ Page({
     })
 
     // 关闭刷新动画
-    if (offset === 0) {
+    if (offset==0) {
       setTimeout(() => {
         wx.stopPullDownRefresh()
-        wx.hideNavigationBarLoading()
       }, 700)
     }
+    setTimeout(() => {
+      wx.hideNavigationBarLoading()
+    }, 600)
   },
 
   // 时间处理方法
